@@ -20,3 +20,8 @@ resource "aws_instance" "linux" {
     OS   = "linux"
   }
 }
+
+resource "aws_key_pair" "name" {
+  key_name   = var.key_name
+  public_key = file(var.public_key_path)
+}

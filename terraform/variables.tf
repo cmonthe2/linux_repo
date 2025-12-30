@@ -4,6 +4,12 @@ variable "key_name" {
   type        = string
   default     = "arnaud_key"
 }
+variable "public_key_path" {
+  description = "Path to the public key file"
+  type        = string
+  default     = "~/.ssh/arnaud_key.pub"
+
+}
 
 # variable "windows_ami" {
 #   description = "Windows Server AMI ID"

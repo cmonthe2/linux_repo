@@ -4,4 +4,4 @@ output "linux_ami" {
 }
 
 # output "windows_ami" {
-#     value = var.windows_ami       
+#     value = var.windows_ami
