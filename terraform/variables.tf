@@ -2,8 +2,9 @@
 variable "key_name" {
   description = "EC2 key pair name"
   type        = string
-  default     = "arnaud_key"
+  default     = "linux"
 }
+
 
 # variable "windows_ami" {
 #   description = "Windows Server AMI ID"
